@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    
+    <title>To-Do</title>
+</head>
+
+<body>
+    <!--input to todo list and submit button to board.-->
+    <header id="header">
+        <div id="todoHeadline">
+            <span id="headText"><h1>To-Do List</h1></span>
+        </div>
+        <div id="submitWave">
+            <input type="text" id="myInput" placeholder="Discover Azure">
+            <button onclick="newElement()" id="submitBtn" type="submit">Submit</button>
+        </div>
+    </header>
+    <!--The list of the submited todo's and the button to delete them indivijually-->
+    <ul id="myUL">
+        <li>Example(Unchecked)</li>
+        <li class="checked">Example(Checked)</li>
+    </ul>
+
+    <script src="/script.js"></script>
+</body>
+</html>
